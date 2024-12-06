@@ -1,0 +1,184 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f0f0f0;
+  align-items: center;
+}
+
+.container h1 {
+  font-size: 2rem;
+  color: #29cf23;
+  margin-bottom: 2rem;
+
+}
+
+.container thead {
+  background-color: #333;
+  color: #16b51b;
+
+}
+
+.container th {
+  padding: 1rem;
+  border: 1px solid #333;
+}
+
+.container td {
+  padding: 1rem;
+  border: 1px solid #333;
+}
+
+.container table {
+  border-collapse: collapse;
+
+}
+
+.container tbody {
+  background-color: #f0f0f0;
+
+}
+
+.container tbody tr {
+  background-color: #f0f0f0;
+
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #c2bad5;
+  color: #da58cb;
+  border-radius: 0.5rem;
+
+}
+
+.actions button {
+  background-color: #250543;
+  color: #d61132;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.actions a {
+  color: hsl(263, 85%, 45%);
+  font-size: larger;
+  padding: 0.5rem;
+
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+
+}
+
+.container form input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+}
+
+.container form textarea {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+
+}
+
+.container form button[type="submit"] {
+  background-color: #250543;
+  color: #d61132;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.container form label {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+
+}
+
+.container button {
+  background-color: #250543;
+  color: #d61132;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+
+}
+
+.container1 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 30px;
+
+}
+
+.container1 h3 {
+  margin-bottom: 1rem;
+
+}
+
+.container1 span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.container1 p button {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  color: blue;
+}
+
+.edit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #11aea4;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit h2 {
+  margin-bottom: 1rem;
+}
+
+.edit form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+}
+
+.edit form input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+}
